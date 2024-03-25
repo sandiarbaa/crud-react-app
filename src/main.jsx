@@ -6,6 +6,7 @@ import LoginPage from "./pages/login.jsx";
 import DashboardPage from "./pages/dashboard";
 import AddPage from "./pages/add.jsx";
 import UpdatePage from "./pages/update.jsx";
+import TestPage from "./pages/test.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/edit/:nim",
     element: <UpdatePage />,
+  },
+  {
+    path: "/test",
+    element: <TestPage />,
   },
 ]);
 
